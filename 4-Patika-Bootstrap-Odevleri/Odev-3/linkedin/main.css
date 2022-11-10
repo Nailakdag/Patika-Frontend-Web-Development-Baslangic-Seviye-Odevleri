@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Mulish', sans-serif;
+    border: none;
+    list-style-type:none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+*:focus{
+    outline:0;
+}
+body{
+    background-color: #E5E5E5;
+}
+div.header{
+    background-color: #fff;
+    height: 76px;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.avatar{
+    height: 40px;
+    width: 152px;
+    border-radius: 8px;
+}
+nav.menu{
+    height: 36px ;
+    width: 600px;
+    margin-right: 56px;
+}
+ul.header-menu{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul.header.menu li{
+    display:flex;
+    align-items: center;
+}
+ul.header-menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#666666;
+}
+ul.header-menu li a span{
+    display:none;
+}
+ul.header-menu li a:hover{
+    background-color: #00ACFF;
+    border:1px solid ;
+    border-radius: 15px;
+}
+ul.header-menu li a:focus{
+    background-color: #00ACFF;
+    border:1px solid ;
+    border-radius: 15px;
+}
+div.search{
+    display: flex;
+    position:relative;
+    height: 44px;
+    width: auto;
+    border-radius: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+div.search input{
+    font-size: 12px;
+    width: 100%;
+}
+div.search input::placeholder{
+    font-size: 12px;
+    width: 100%;
+    
+}
+div.search img{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    padding: 12px 15px;
+    background-color: #00ACFF;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    margin-top: 38px;
+    gap: 18px;
+    justify-content: space-around;
+    margin-left:145px ;
+    margin-right:145px;
+    flex:1;
+}
+.left-sidebar{
+    min-width: 278px;
+    position: relative;
+}
+.leftsidebar1{
+    min-width: 278px;
+    width: 278px;
+    height: 168px;
+    position: relative;
+    border-radius: 18px;
+    margin-bottom: 18px;
+}
+div.arkaplan{
+    background-size: 100% 100%; 
+    height: 82px;
+    background-image:url(.//icon/arkaplanresmi.png);
+}
+div.profil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #F6F6F6;
+}
+div.profil a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    gap: 7px;
+}
+div.profil a img{
+    margin-top: -22px;
+}
+div.profil a span span{
+    color:rgba(0,0,0,0.46);
+    font-size: 10px;
+}
+div.profil span{
+    font-size: 10px;
+    color: #00ACFF;
+}
+div.profil a span{
+    color:black;
+    font-size: 12px;
+}
+div.addaccount{
+    display: flex;
+    background-color: #fff;
+}
+div.addaccount label a{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color:rgba(0,0,0,0.46);
+}
+div.addaccount label a img{
+    margin:10px 20px 10px 25px;
+}
+.leftsidebar2{
+    background-color: #fff;
+    width: 278px;
+    height: 280px;
+    min-width: 278px;
+    border-radius: 18px;
+    margin-bottom: 23px;
+}
+.leftsidebar2 ul{
+    padding: 24px 20px 24px 22px;
+}
+.leftsidebar2 ul li{
+    margin-top: 10px;
+    font-size: 16px;
+    color:#666666;
+}
+.leftsidebar2 ul li a{
+    display: flex;
+    align-items: center;
+}
+.leftsidebar2 ul li a img{
+    margin-right: 17px;
+}
+.leftsidebar3{
+    background-color: #fff;
+    height: 190px;
+    width: 278px;
+    min-width: 278px;
+    border-radius: 18px;
+    position: relative;
+    
+    
+}
+.başlık{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F6F6F6;
+}
+.başlık h2{
+    font-size: 12px;
+    color:#181818;
+    margin-top: 18px;
+    margin-left: 24px;
+}
+.başlık img{
+    margin-top: 12px;
+    margin-right: 31px;
+}
+.hashtag{
+    width: 100%;
+    position: relative;
+    padding-left: 20px;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:7px 10px;
+    margin-top: 10px;
+}
+.hashtag a{
+    padding:4px 14px 6px 12px;
+    background-color: #E9F0F8;
+    
+
+}
+.right-sidebar{
+    min-width: 278px;
+    width: 278px;   
+    position: relative;
+}
+.rightsidebar2{
+    width: 100%;
+    padding-top: 24px;
+    padding-left: 23px;
+    padding-right: 12px;
+    background-color: #fff;
+    margin-top: 24px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.rightsidebar2 h6{
+    font-size: 16px;
+    color:#212121;
+    margin-bottom: 24px;
+}
+.people{
+    border-bottom: 1px solid #DFDFDF;
+}
+.people ul{
+    position: relative;
+}
+.people ul li{
+    display:flex;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.people ul li a{
+    display:flex;
+    align-items: center;
+
+}
+.people ul li img{
+    margin-right: 15px;
+}
+.connect{
+    font-size: 12px;
+    color: #00ACFF;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #00ACFF;
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.altname{
+    font-size: 16px;
+    color:#212121;
+    font-weight: bold;
+}
+.unvan{
+    font-size: 11px;
+    font-weight: 200;
+}
+div.peoplebtn{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.peoplebtn{
+    font-size:12px;
+    color: #00ACFF;
+    text-align: center;
+
+}
+.rightsidebar3{
+    min-width: 278px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding-top: 24px;
+    padding-left: 22px;
+    padding-bottom: 24px
+}
+.rightsidebar3{
+    width: 100%;
+}
+.rightsidebar3 ul li{
+    margin-bottom: 24px;
+}
+.rightsidebar3 ul li a{
+    display: flex;
+    align-items: center;
+    
+}
+.rightsidebar3 ul li a img{
+    margin-right: 16px;
+}
+.content{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.content1{
+    border-radius: 16px;
+    background-color: rgba(210,240,255,.41);
+    position: relative;
+    margin-bottom: 24px;
+}
+.gönderiyap{
+    display: flex;
+    align-items: center;
+    border-radius: 16px;
+}
+#textarea{
+    height:113px;
+    width: 100%;
+    display:relative;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    resize: none;
+}
+#textarea::placeholder{
+    position: absolute;
+    margin-left: 65px;
+    font-size: 16px;
+    margin-top: 45px;
+}
+#textarea:focus{
+    z-index: 1;
+}
+.gönderiyap img{
+    position: absolute;
+}
+.contentavatar{
+    margin-left: 9px;
+    margin-right: 16px;
+}
+.edit{
+    margin-left: 200px;
+}
+.göndermeyap{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.göndermeyap li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.göndermeyap li label{
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+}
+.göndermeyap li a{
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+}
+.göndermeyap li label img{
+    margin-right: 10px;
+}
+.göndermeyap li input{
+    display: none;
+}
+.content2{
+    border-radius: 16px;
+    position: relative;
+    padding: 14px 32px 8px 18px;
+    background-color: #fff;
+    margin-bottom: 42px;
+}
+.headercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headercontentprofil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sarılinkedin{
+    margin-top: -15px;
+    margin-left: -6px;
+}
+.headercontentprofil a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headercontentprofil a img{ 
+    margin-right: 8px;
+}
+.headercontentprofil a span{
+    font-size: 12px;
+    color:#000;
+}
+.headercontentprofil a span span{
+    font-size: 10px;
+    color:rgba(0, 0,0,.46)
+}
+.content2 h6{
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 13px;
+}
+.begeni-yorum{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.begeni-yorum div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.begeni-yorum div img{
+    margin-right: 40px;
+}
+.writecomment{
+    width: 100%;
+    border-radius: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #F6F6F6;
+}
+#text{
+    width: 100%;
+    background-color: #F6F6F6;
+    position: relative;
+    height: 42px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+}
+#text::placeholder{
+    margin-left: 30px;
+    font-size: 11px;
+    margin-top: 15px;
+}
+.rec24{
+    margin-right: 15px;
+}
+.writecomment a{
+    margin-right: 10px;
+}
+.messagebar{
+    min-width: 278px;
+    width: 278px;
+    height: 56px;
+    background-color: #fff;
+    padding: 16px 22px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.messagebar a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.messagebar div{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    margin-right: 15px;
+}
+.arrow{
+    margin-left: 15px;
+}
+
