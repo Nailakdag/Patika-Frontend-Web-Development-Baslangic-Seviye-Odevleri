@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+*:focus {
+  outline: none;
+}
+
+body {
+  background-color: #202124;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #bdc1c6;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+.container header {
+  height: 60px;
+  display: flex;
+  justify-content: end;
+  padding: 6px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.container header nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.container header nav ul li {
+  padding: 8px;
+}
+.container header nav ul li a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container header nav ul li a:hover {
+  text-decoration: underline;
+}
+.container header nav ul li a svg {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  margin-left: 10px;
+}
+.container header nav ul li a svg:hover {
+  background-color: #aaa9a9;
+  border-radius: 50%;
+  padding: 5px;
+}
+.container header nav ul li a img {
+  width: 36px;
+  height: 36px;
+}
+.container header nav ul li a img:hover {
+  border: 3px solid #aaa9a9;
+  border-radius: 50%;
+}
+.container .section {
+  width: 100%;
+  max-width: 582px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 75px;
+}
+.container .section .logo {
+  height: 92px;
+  margin-bottom: 25px;
+}
+.container .section .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 582px;
+  height: 44px;
+  border-radius: 24px;
+  border: 1px solid #5f6368;
+}
+.container .section .input:hover {
+  background-color: #5f6368;
+}
+.container .section .input:hover input {
+  background-color: #5f6368;
+  width: 100%;
+}
+.container .section .input .search {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container .section .input input {
+  width: 100%;
+  background-color: #202124;
+  color: #fff;
+  border: none;
+}
+.container .section .input img {
+  margin-left: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.container .section .button {
+  margin-top: 15px;
+}
+.container .section .button button {
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.container .section .button button:hover {
+  border: 1px solid #5f6368;
+}
+.container .footer {
+  height: 95px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: #171717;
+}
+.container .footer .turkiye {
+  height: 48px;
+  width: 100%;
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+  font-size: 15px;
+  font-family: arial, sans-serif;
+  color: #9aa0a6;
+}
+.container .footer footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+.container .footer footer .yazi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 33%;
+  color: #9aa0a6;
+}
+.container .footer footer .yazi:hover {
+  text-decoration: underline;
+}
+.container .footer footer .left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 33%;
+}
+.container .footer footer .left ul {
+  display: flex;
+}
+.container .footer footer .left ul li:not(:last-child) {
+  padding-right: 25px;
+}
+.container .footer footer .left ul li a {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #9aa0a6;
+}
+.container .footer footer .left ul li a:hover {
+  text-decoration: underline;
+}
+.container .footer footer .right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex: 33%;
+}
+.container .footer footer .right ul {
+  display: flex;
+}
+.container .footer footer .right ul li:not(:last-child) {
+  padding-right: 25px;
+}
+.container .footer footer .right ul li a {
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #9aa0a6;
+}
+.container .footer footer .right ul li a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

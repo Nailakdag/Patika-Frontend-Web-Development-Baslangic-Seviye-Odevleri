@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    border: none;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+a {
+    color: #000000;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: #000000;
+    flex: 1;
+    justify-content: center;
+    gap: 300px;
+    margin-left: -300px;
+    position: sticky;
+    top: 0;
+
+
+    .nav ul {
+        display: flex;
+        width: 500px;
+        justify-content: space-around;
+        align-items: center;
+
+        a {
+            color: rgba(255, 254, 254, 0.562);
+            transition: 600ms background-color;
+
+            &:hover {
+                padding: 10px 20px;
+                background-color: rgba($color: #383838, $alpha: 1.0);
+                color: aliceblue;
+                border-radius: 15px;
+            }
+        }
+    }
+}
+
+.main {
+    margin-top: 80px;
+    display: grid;
+    place-items: center;
+
+    .article {
+        display: grid;
+        place-items: center;
+
+        p {
+            display: grid;
+            place-items: center;
+            line-height: 30px;
+            font-size: 20px;
+        }
+
+        h3 {
+            margin-top: 50px;
+            margin-bottom: 30px;
+            font-size: 25px;
+
+        }
+
+        ul {
+            list-style: circle;
+
+            li {
+                font-size: 20px;
+
+                &:not(:last-child) {
+                    margin-bottom: 15px;
+                }
+
+            }
+        }
+    }
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    margin-top: 80px;
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+
+        .product-box {
+            border: 3px solid rgba($color: #33323285, $alpha: 1.0);
+            border-radius: 15px;
+            display: grid;
+            place-items: center;
+            text-align: center;
+
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+
+            .product-image img {
+                width: 300px;
+                height: 300px;
+                margin-bottom: 20px;
+                margin-top: 15px;
+                border-bottom: 2px dashed #000000;
+                padding-bottom: 15px;
+            }
+
+            .product-title {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+        }
+
+    }
+}
+
+.about-us {
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    h5 {
+        margin-left: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}

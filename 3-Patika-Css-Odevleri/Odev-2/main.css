@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  border: none;
+}
+*:focus {
+  outline: none;
+}
+
+.container {
+  margin-top: 200px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container a {
+  text-decoration: underline;
+  color: blue;
+}
+.container .abc {
+  margin-top: 20px;
+}
+.container .input {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  text-align: center;
+  background-color: rgba(71, 70, 70, 0.1);
+}
+.container .input p {
+  font-size: 20px;
+}
+.container .input input {
+  width: 350px;
+  height: 20px;
+  border: 1px solid #000;
+}
+.container .input .buttons button {
+  border: 1px solid #000;
+  padding: 3px 7px;
+}
+.container footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: rgb(48, 255, 187);
+  background: linear-gradient(90deg, rgb(48, 255, 187) 0%, rgb(56, 96, 86) 100%);
+  position: relative;
+  height: 100px;
+}
+.container footer .content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 33%;
+  height: 100%;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.container footer .content-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 33%;
+  height: 100%;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+}
+.container footer .content-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 33%;
+  border-top: 2px solid #fff;
+  height: 100%;
+}
+.container footer .content-3 input {
+  width: 220px;
+  height: 20px;
+  border: 1px solid #000;
+}
+.container footer .content-3 input::-moz-placeholder {
+  color: #000;
+}
+.container footer .content-3 input:-ms-input-placeholder {
+  color: #000;
+}
+.container footer .content-3 input::placeholder {
+  color: #000;
+}
+.container footer .content-3 .buttons2 button {
+  border: 1px solid #000;
+  padding: 3px 7px;
+  margin-right: 2px;
+}/*# sourceMappingURL=main.css.map */
